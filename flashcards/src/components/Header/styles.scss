@@ -1,0 +1,39 @@
+.Header{
+    display: flex;
+    background-color: #FAAD9B;
+    height: 80px;
+    width: 90%;
+    top: 5px;
+    right: 0;
+    position: fixed;
+    margin: 0 5%;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+    h1{
+        color: rgba(255, 255, 255, 0.822);
+        font-size: 60px;
+        margin-top: 5px;
+        margin-right: 40%;
+    }
+}
+
+#logo{
+    height: 70px;
+    margin: 5px;
+}
+
+button{
+    background-color: #f7b7a9;
+    height: 70px;
+    margin: 5px 5px 0 ;
+    padding: 0 5px;
+    border: none;
+    font-size: 2em;
+    color: white;
+}
+
+button:hover{
+    background-color: #fa967f;
+    cursor: pointer;
+}
